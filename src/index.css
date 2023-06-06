@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layoutItem {
+  border: 1px solid black;
+  background: #eee;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.layoutItemContainer {
+  cursor: grab;
+}
+
+.customized-tooltip-content {
+  background: white;
+  border: 1px solid grey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
